@@ -3,20 +3,108 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LordDuarte - Apps</title>
-<style>
-  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; color: #222; }
-  h1 { font-size: 1.7rem; }
-</style>
+<title>Lord Lima Studio | Jogos mobile em pixel art</title>
+<meta name="description" content="Estúdio indie de jogos para Android feitos em Unity, com pixel art e mecânicas fáceis de entender. Ricochet Rescue e Oops Potion.">
+<meta name="theme-color" content="#150c2b">
+<link rel="canonical" href="https://lordlimastudio.com/">
+<link rel="alternate" hreflang="pt-BR" href="https://lordlimastudio.com/">
+<link rel="alternate" hreflang="en" href="https://lordlimastudio.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://lordlimastudio.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lord Lima Studio">
+<meta property="og:title" content="Lord Lima Studio | Jogos mobile em pixel art">
+<meta property="og:description" content="Estúdio indie de jogos para Android feitos em Unity, com pixel art e mecânicas fáceis de entender. Ricochet Rescue e Oops Potion.">
+<meta property="og:url" content="https://lordlimastudio.com/">
+<meta property="og:image" content="https://lordlimastudio.com/assets/img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/img/favicon.png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Pixelify+Sans:wght@500;700&family=Press+Start+2P&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-<h1>LordDuarte</h1>
-<p>Desenvolvedor de apps e jogos para Android.</p>
-<h2>Políticas de privacidade</h2>
-<ul>
-  <li><a href="https://lordduarte.github.io/Loteco-privacidade/">Loteco</a></li>
-  <li><a href="https://lordduarte.github.io/oops_potion-privacidade/">Oops Potion</a></li>
-  <li><a href="https://lordduarte.github.io/ricochet_rescue-privacidade/">Ricochet Rescue</a></li>
-</ul>
+<a class="skip" href="#main">Ir para o conteúdo</a>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="wrap">
+<nav class="site" aria-label="Principal">
+  <a class="brand" href="/"><img src="/assets/img/logo.png" alt="" width="44" height="44">Lord Lima Studio</a>
+  <ul>
+    <li><a href="/games/">Jogos</a></li>
+    <li><a href="/about/">Estúdio</a></li>
+    <li><a href="/contact/">Contato</a></li>
+    <li><a href="/privacy/">Privacidade</a></li>
+    <li><a class="lang" href="/en/" hreflang="en" lang="en" aria-label="English">EN</a></li>
+  </ul>
+</nav>
+<main id="main">
+<header class="hero">
+  <div>
+    <span class="eyebrow">Estúdio indie de jogos mobile</span>
+    <h1>Jogos pequenos, <em>feitos com capricho</em>.</h1>
+    <p class="lead">Desenvolvo jogos para Android em Unity, com pixel art, mecânicas fáceis de entender e muita personalidade.</p>
+    <div class="btns">
+      <a class="btn" href="#games">VER JOGOS</a>
+      <a class="btn alt" href="https://play.google.com/store/apps/dev?id=8411854920311777114" target="_blank" rel="noopener">GOOGLE PLAY</a>
+    </div>
+  </div>
+  <div class="mascot"><img src="/assets/img/logo.png" alt="Mascote do Lord Lima Studio: uma ervilha com coroa dourada, óculos escuros e cetro" width="512" height="512"></div>
+</header>
+<canvas class="grass" id="grass" aria-hidden="true"></canvas>
+
+<section id="games">
+  <div class="sec-h">
+    <span class="eyebrow">Catálogo</span>
+    <h2>Jogos</h2>
+    <p>Cada jogo tem página própria com descrição, imagens e link para a loja.</p>
+  </div>
+  <article class="game px">
+    <a class="shot" href="/games/oops-potion/"><img src="/assets/img/games/oops-pt.png" alt="Oops Potion: Misture, acerte, descubra!" width="1024" height="500" loading="lazy"></a>
+    <div>
+      <span class="chip soon">EM DESENVOLVIMENTO</span>
+      <h3>Oops Potion</h3>
+      <p>Escolha os ingredientes, acerte as doses e mexa o caldeirão. Cada poção tem um efeito que você só descobre bebendo: chifres, asas, chamas no chapéu. Complete o livro com 40 receitas.</p>
+      <ul class="facts"><li><b>40</b><span>receitas</span></li><li><b>17</b><span>efeitos</span></li><li><b>4</b><span>ingredientes por mistura</span></li></ul>
+      <div class="btns"><a class="btn" href="/games/oops-potion/">VER PÁGINA</a><a class="btn alt" href="https://lordduarte.github.io/oops_potion-privacidade/" target="_blank" rel="noopener">POLÍTICA DE PRIVACIDADE</a></div>
+    </div>
+  </article>
+  <article class="game px rev">
+    <div>
+      <span class="chip">GOOGLE PLAY</span>
+      <h3>Ricochet Rescue</h3>
+      <p>Mire. Ricocheteie. Resgate. Um cowboy, uma arma e balas que ricocheteiam: corte a corda, salve os reféns e derrube os bandidos no Velho Oeste. 66 fases, munições especiais e fases bônus de caça ao pato.</p>
+      <ul class="facts"><li><b>66</b><span>fases</span></li><li><b>★★★</b><span>por fase</span></li><li><b>2</b><span>mundos</span></li></ul>
+      <div class="btns"><a class="btn" href="/games/ricochet-rescue/">VER PÁGINA</a><a class="btn alt" href="https://play.google.com/store/apps/details?id=com.lordlima.ricochetrescue" target="_blank" rel="noopener">BAIXAR</a><a class="btn alt" href="https://lordduarte.github.io/ricochet_rescue-privacidade/" target="_blank" rel="noopener">POLÍTICA DE PRIVACIDADE</a></div>
+    </div>
+    <a class="shot" href="/games/ricochet-rescue/"><img src="/assets/img/games/rico-pt.png" alt="Ricochet Rescue: Mire. Ricocheteie. Resgate." width="1024" height="500" loading="lazy"></a>
+  </article>
+</section>
+
+<section id="about">
+  <div class="sec-h"><span class="eyebrow">Sobre</span><h2>O estúdio</h2></div>
+  <div class="about">
+    <div class="card px"><h3>Quem faz</h3><p>Lord Lima é o estúdio de Gabriel, desenvolvedor de jogos. Cada projeto é desenhado, programado e publicado por uma pessoa só, do primeiro sprite à versão da loja.</p></div>
+    <div class="card px"><h3>Como trabalha</h3><ul><li>Unity 6, foco em Android</li><li>Pixel art e interface legível</li><li>Jogos em português, inglês e espanhol</li><li>Política de privacidade clara em cada app</li></ul></div>
+  </div>
+  <p style="margin-top:32px"><a class="btn alt" href="/about/">CONHECER O ESTÚDIO</a></p>
+</section>
+
+<section id="contact">
+  <div class="contact px">
+    <span class="eyebrow">Contato</span>
+    <h2 style="margin-top:10px">Vamos conversar</h2>
+    <a class="mail" href="mailto:lordlimastudio@gmail.com">lordlimastudio@gmail.com</a>
+    <p>Suporte, parcerias e imprensa.</p>
+    <p><a href="https://play.google.com/store/apps/dev?id=8411854920311777114" target="_blank" rel="noopener">Todos os jogos na Google Play</a></p>
+  </div>
+</section>
+</main>
+<footer>
+  <span>© 2026 Lord Lima Studio · lordlimastudio.com · <a href="https://play.google.com/store/apps/dev?id=8411854920311777114" target="_blank" rel="noopener">Google Play</a></span>
+  <span>Privacidade: <a href="https://lordduarte.github.io/ricochet_rescue-privacidade/" target="_blank" rel="noopener">Ricochet Rescue</a> · <a href="https://lordduarte.github.io/oops_potion-privacidade/" target="_blank" rel="noopener">Oops Potion</a> · <a href="https://lordduarte.github.io/Loteco-privacidade/" target="_blank" rel="noopener">Loteco</a></span>
+</footer>
+</div>
+<script src="/assets/js/site.js" defer></script>
 </body>
 </html>
